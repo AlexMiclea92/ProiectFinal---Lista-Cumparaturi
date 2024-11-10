@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adauga Produs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Adauga un Produs</h1>
+        <form action="{{ url_for('adauga_produs') }}" method="POST">
+            <label for="nume">Nume Produs:</label>
+            <input type="text" name="nume" required>
+            <button type="submit" class="btn-adauga">Adauga</button>
+        </form>
+        <br>
+        <a href="{{ url_for('homepage') }}" class="btn-inapoilista">Inapoi la lista</a>
+    </div>
+</body>
+</html>

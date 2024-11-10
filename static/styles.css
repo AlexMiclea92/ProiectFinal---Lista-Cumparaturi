@@ -1,0 +1,105 @@
+body {
+    background: #ccbfb4;
+}
+
+.container {
+    border-radius: 30px;
+    max-width: 800px;
+    padding: 2.5rem;
+    margin-top: 15px;
+}
+
+h1 {
+    color: #454d6e;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+ul {
+    font-weight: 550;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.btn-adauga {
+    background-color: #76c7f2;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-adauga:hover {
+    background-color: #4fa3d1;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-marcat {
+    background-color: #64d59f;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-marcat:hover {
+    background-color: #4bc57f;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sterge {
+    background-color: #f06d6d;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sterge:hover {
+    background-color: #e14d4d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-inapoilista {
+    background-color: #ad9c9c;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-inapoilista:hover {
+    background-color: #787171;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+input {
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    font-size: 1rem
+}
